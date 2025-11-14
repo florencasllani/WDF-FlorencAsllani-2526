@@ -1,0 +1,42 @@
+.btnGreen {
+    background-color: #A7C44D;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.btnGreen::after {
+    content: "→";
+    padding-left: 20px;
+}
+
+.btnGreen:hover {
+    color: #444B46;
+    transition: 0.3s;
+}
+
+
+.btnFav {
+  display: inline-block;
+  background-color: #DCD1BC;
+  color: #801005;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 9px 16px;
+  border-radius: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 24px;
+  line-height: 24px;
+  width: 12px;
+}
+
+.btnFav:hover {
+    font-size: 35px;
+    color: #D7230E;
+    transition: 0.3s;
+}

@@ -1,0 +1,130 @@
+/* stylelint-disable no-duplicate-selectors */
+
+/* deel 1: start CSS */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   background-color: #fff;
+}
+
+body {
+   border: 10px solid white;
+   height: 600px;
+   margin: 20px auto;
+   max-width: 300px;
+   padding: 40px 100px;
+}
+
+h1 {
+   margin-top: 30px;
+}
+
+main {
+   padding-top: 30px;
+}
+
+mark {
+   background-color: transparent;
+}
+
+footer {
+   margin-top: 35px;
+}
+
+/* deel 2: achtergronden */
+
+html {
+    background-image: url(../img/tile.png);
+    background-size: 20%;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+}
+
+
+/* deel 3: lettertypes */
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Patrick Hand', 'Comic Neue', 'Shadows Into Light', cursive;
+}
+
+.date {
+    font-family: Caveat, Satisfy, Handlee, cursive;
+}
+
+/* deel 4: tekstopmaak */
+
+body {
+   text-align: left;
+   line-height: 1.8;
+}
+
+h1 {
+   font-size: 1.8em;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+ p {
+   font-size: 1.1em;
+   color: #655FB4;
+}
+
+mark {
+   background-color: #ffe6e6cc;
+   border-radius: 3px;
+   padding: 0 3px;
+   font-weight: bold;
+}
+
+.salute {
+   margin-bottom: 5px;
+   font-size: 1.1em;
+}
+
+.date {
+   font-size: 0.9em;
+   opacity: 0.8;
+   font-style: italic;
+}
+
+footer {
+   text-align: right;
+}
+
+span {
+   color:#860101;
+}
+
+/* deel 5: schaduwen */
+
+body {
+   box-shadow: 0 8px 20px #00000026;
+   border-radius: 12px;
+}
+
+h1 {
+   text-shadow: 1px 1px 2px #0003;
+}
+
+p {
+   text-shadow: 0.5px 0.5px 1px #0000001a;
+}
+
+mark {
+   box-shadow: 0 0 6px #ffc8c8cc;
+}
+
+.date {
+   text-shadow: 0.5px 0.5px 1px #00000026;
+}
