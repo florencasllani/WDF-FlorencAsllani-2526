@@ -1,0 +1,77 @@
+#menu-hor-green {
+    background-color: #abdb4c;
+    font-family: Arial, sans-serif;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+#menu-hor-green li a {
+    color: #444;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-underline-offset: 4px;
+}
+
+#menu-hor-green li a:hover {
+    text-decoration: underline;
+    color: #444;
+    transition: 0.5s;
+}
+
+#menu-hor-green li a:active {
+    text-decoration: underline;
+    color: #444;
+}
+
+#menu-hor-green li.active a {
+    text-decoration: underline;
+    color: #444;
+}
+
+#menu-social-vert {
+    border: 3px solid #abdb4c;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    width: 50px;
+}
+
+#menu-social-vert li {
+    border-top: 3px solid #abdb4c;
+}
+
+#menu-social-vert li:first-child {
+    border-top: none;
+}
+
+#menu-social-vert a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu-social-vert span {
+    color: #99c63f;
+    display: inline-block;
+    font-size: 28px;
+    line-height: 1;
+    height: 28px;
+    width: 28px;
+}
+
+#menu-social-vert span:hover {
+    color: #abdb4c;
+    transition: 0.5s;
+}
+
+#menu-social-vert span:active {
+    color: #abdb4c;
+}
+
+#menu-social-vert li.active span {
+    color: #abdb4c;
+}

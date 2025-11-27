@@ -17,7 +17,7 @@
 
 .btnGreen:hover {
     color: #444B46;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 
@@ -27,16 +27,36 @@
   color: #801005;
   text-decoration: none;
   font-size: 25px;
-  padding: 9px 16px;
-  border-radius: 50%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 24px;
-  line-height: 24px;
-  width: 12px;
+  border-radius: 100%;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
 }
 
 .btnFav:hover {
-    font-size: 35px;
+    font-size: 38px;
     color: #D7230E;
     transition: 0.3s;
+}
+
+.btnTiktok {
+    display: inline-block;
+    background-color: #efefef;
+    background-image: url(../img/logo-tiktok.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-size: 35px;
+    color: #6A6A6A;
+    font-size: 20px;
+    padding: 15px 20px 15px 60px; /* ruimte voor icon links */
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnTiktok:hover {
+    background-size: 40px;
+    text-decoration: underline;
+    transition: 0.5s;
 }
