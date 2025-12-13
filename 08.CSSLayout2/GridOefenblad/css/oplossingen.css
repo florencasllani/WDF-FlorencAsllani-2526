@@ -1,0 +1,288 @@
+/* =========================================
+   1. PRODUCTOVERZICHT
+========================================= */
+.grid-products {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.grid-products .item {
+	background: #dbeafe;
+	border-radius: 8px;
+	padding: 14px;
+	text-align: center;
+}
+
+
+/* =========================================
+   2. BLOG LAYOUT
+========================================= */
+.blog-layout {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.blog-layout .sidebar {
+	background: #fecaca;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+.blog-layout .main {
+	background: #bbf7d0;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+
+/* =========================================
+   3. BOEKENMUUR
+========================================= */
+
+.book-wall {
+	background: #f7f7f7;
+	padding: 10px;
+	max-width: 900px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.book {
+	background: white;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.book img {
+	border-radius: 6px;
+	display: block;
+	height: auto;
+	max-width: 300px;
+	width: 100%;
+}
+
+.book .title {
+	font-size: 1rem;
+	margin: 8px 0 0 0;
+}
+
+.book .author,
+.book .year {
+	color: #555;
+	font-size: 0.9rem;
+	margin: 4px 0;
+}
+
+.book .desc {
+	font-size: 0.9rem;
+	margin-top: 6px;
+}
+
+/* =========================================
+   4. FORMULIER IN GRID
+========================================= */
+.form-grid {
+	background: #f7f7f7;
+	max-width: 600px;
+	min-height: 300px;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.form-grid input,
+.form-grid textarea {
+	padding: 6px;
+}
+
+/* =========================================
+   5. CONFERENTIESCHEMA
+========================================= */
+.conference {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.conference :first-child {
+	margin-top: 0;
+}
+
+.conference .hours {
+	background: #ddd;
+	border-radius: 6px;
+	font-weight: bold;
+	padding: 12px;
+	text-align: center;
+}
+
+.conference .day {
+	background: #fde68a;
+	border-radius: 6px;
+	font-weight: bold;
+	padding: 12px;
+	text-align: center;
+}
+
+.session {
+	background: #d1e7ff;
+	border-radius: 6px;
+	padding: 12px;
+}
+
+.break {
+	background: #e7ffe0;
+	border-radius: 6px;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* =========================================
+   6. PRODUCTFICHE
+========================================= */
+.media {
+	background: #f7f7f7;
+	max-width: 700px;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.media img {
+	display: block;
+	height: 150px;
+}
+
+.media .text {
+	padding: 8px 12px;
+}
+
+.media .buy .button {
+	background: #111;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+/* =========================================
+   7. PINTEREST-STIJL GRID
+========================================= */
+.pin-grid {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.pin {
+	background: #e5e7eb;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.pin.tall {
+	background: #d1fae5;
+
+	/* oplossing */
+	/* TODO */
+}
+
+/* =========================================
+   8. BREDE KAARTEN
+========================================= */
+.cards {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.cards .card {
+	background: #f3f4f6;
+	border-radius: 8px;
+	padding: 12px;
+	text-align: center;
+}
+
+.cards .wide {
+	background: #e0e7ff;
+
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   09. SPRINGEN
+========================================= */
+.jump-grid {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 450px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.jump-grid .man {
+	height: 100px;
+}
+
+.jump-grid .man.jump {
+	align-self: start;
+	/* oplossing */
+}
+
+
+/* =========================================
+   10. BUITENHOEKEN
+========================================= */
+.corner-grid {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 330px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.corner-grid .cell {
+	background: #dbeafe;
+	font-size: 0.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.cell:nth-child(2) {
+	/* oplossing */
+	/* TODO */
+}
+
+.cell:nth-child(4) {
+	/* oplossing */
+	/* TODO */
+}
+
+.cell:nth-child(3) {
+	/* oplossing */
+	/* TODO */
+}

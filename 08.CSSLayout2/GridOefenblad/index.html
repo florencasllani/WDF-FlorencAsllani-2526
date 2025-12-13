@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Grid mini-oefeningen</title>
+	<link rel="stylesheet" href="css/start.css">
+	<link rel="stylesheet" href="css/oplossingen.css">
+</head>
+
+<body>
+	<header class="page-header">
+		<h1>CSS Grid mini-oefeningen</h1>
+		<p>Werk enkel in <code>css/oplossingen.css</code>. Elke section is een aparte oefening.</p>
+		<p>Een screenshot van het eindresultaat <a href="screenshot.png">vind je hier</a>.</p>
+	</header>
+
+
+	<!-- 1. PRODUCTOVERZICHT -->
+	<section class="exercise" id="ex1">
+		<h2>1. Productoverzicht (3 gelijke kolommen)</h2>
+		<p class="goal">Doel: grid-container maken, kolommen en tussenruimte maken</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een grid-container van <code>.grid-products</code> met <code>display</code>.</li>
+				<li>Maak 3 gelijke kolommen met <code>grid-template-columns</code>.</li>
+				<li>Zet 20px tussenruimte met <code>gap</code>.</li>
+			</ol>
+		</div>
+
+		<div class="grid-products">
+			<div class="item">Product A</div>
+			<div class="item">Product B</div>
+			<div class="item">Product C</div>
+			<div class="item">Product D</div>
+			<div class="item">Product E</div>
+			<div class="item">Product F</div>
+			<div class="item">Product G</div>
+		</div>
+	</section>
+
+
+	<!-- 2. BLOG LAYOUT -->
+	<section class="exercise" id="ex2">
+		<h2>2. Bloglayout (vaste sidebar en flexibele content)</h2>
+		<p class="goal">Doel: vaste en flexibele kolombreedtes</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een grid-container van <code>.blog-layout</code>.</li>
+				<li>Maak 2 kolommen: de sidebar is 250px vast, de tweede is flexibel.</li>
+				<li>Maak 30px tussenruimte.</li>
+			</ol>
+		</div>
+
+		<div class="blog-layout">
+			<aside aria-label="blog-sidebar" class="sidebar">Sidebar</aside>
+			<main aria-label="blog-main" class="main">Hoofdartikel</main>
+		</div>
+	</section>
+
+
+	<!-- 3. BOEKENMUUR -->
+	<section class="exercise" id="ex3">
+		<h2>3. Boekenmuur (gallerij van 10 boeken)</h2>
+		<p class="goal">Doel: gallerij maken</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een grid-container van <code>.book-wall</code>.</li>
+				<li>Maak een tussenruimte van <code>15px</code>.</li>
+				<li>Maak vier gelijke kolommen</li>
+				<li>Uitdaging: in plaats van vier kolommen, gebruik <code>repeat(auto-fill, minmax(...))</code> voor een mooie responsive grid (zie <a href="https://rogiervdl.github.io/CSS-course/04_layout.html#voorbeeld-5-foto-gallerij-grid">dit voorbeeld</a>); maak het browservenster smaller, en kijk wat gebeurt.</li>
+			</ol>
+		</div>
+
+		<div class="book-wall">
+			<article class="book">
+				<img src="img/boek01.png" alt="De Boomgaard">
+				<h3 class="title">De Boomgaard</h3>
+				<p class="author">Lynn Austin</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Roman over familie, verlies en nieuwe kansen in een boomgaard.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek02.png" alt="Tegen de stroom in">
+				<h3 class="title">Tegen de stroom in</h3>
+				<p class="author">Lynn Austin</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Historische roman waarin een vrouw moet vechten tegen de verwachtingen van haar tijd.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek03.png" alt="De Plantage">
+				<h3 class="title">De Plantage</h3>
+				<p class="author">Lynn Austin</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Verhaal rond een plantage, geheimen uit het verleden en moeilijke keuzes.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek04.png" alt="Krokodil op weg naar beter">
+				<h3 class="title">Krokodil op weg naar beter</h3>
+				<p class="author">Yoeri Slegers</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Prentenboek over een krokodil die leert omgaan met emoties en groeien.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek05.png" alt="Een nest voor Roef">
+				<h3 class="title">Een nest voor Roef</h3>
+				<p class="author">Floor Tinga &amp; Ilse Hermans</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Hartverwarmend prentenboek over een jongen en zijn bijzondere band met een hond.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek06.png" alt="Kraaloog">
+				<h3 class="title">Kraaloog</h3>
+				<p class="author">Floor Tinga &amp; Ilse Hermans</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Poëtisch prentenboek over een vogel, natuur en verwondering.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek07.png" alt="Waar is Paulie Fink?">
+				<h3 class="title">Waar is Paulie Fink?</h3>
+				<p class="author">Ali Benjamin</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Jeugdroman met humor en twijfel over jezelf, vriendschap en erbij horen.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek08.png" alt="Samen op de vlucht">
+				<h3 class="title">Samen op de vlucht</h3>
+				<p class="author">Nadja Van Sever</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Jeugdroman over vluchten, moed, en elkaar helpen in moeilijke tijden.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek09.png" alt="Kinderen van Moeder Aarde">
+				<h3 class="title">Kinderen van Moeder Aarde</h3>
+				<p class="author">Thea Beckman</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Avontuurlijke historische roman met een sterk ecologisch en menselijk thema.</p>
+			</article>
+
+			<article class="book">
+				<img src="img/boek10.png" alt="Kruistocht in spijkerbroek">
+				<h3 class="title">Kruistocht in spijkerbroek</h3>
+				<p class="author">Thea Beckman</p>
+				<p class="year">Jaar: —</p>
+				<p class="desc">Klassieker waarin een jongen via tijdreis terechtkomt in een kinderkruistocht.</p>
+			</article>
+		</div>
+	</section>
+
+	<!-- 4. FORMULIER IN GRID -->
+	<section class="exercise" id="ex4">
+		<h2>4. Formulier in grid</h2>
+		<p class="goal">Doel: gebruik <code>grid-template-rows</code></p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak van <code>.form-grid</code> een grid.</li>
+				<li>Maak 2 kolommen; de eerste is 150px breed.</li>
+				<li>Maak 3 rijen: de eerste twee zijn passend, laatste neemt de rest in.</li>
+				<li>Een tussenruimte overal van 12px.</li>
+			</ol>
+		</div>
+
+		<div class="form-grid">
+			<label for="inpNaam">Naam</label>
+			<input type="text" id="inpNaam">
+
+			<label for="inpEmail">Email</label>
+			<input type="email" id="inpEmail">
+
+			<label for="inpMsg">Bericht</label>
+			<textarea id="inpMsg"></textarea>
+		</div>
+	</section>
+
+	<!-- 5. CONFERENTIESCHEMA -->
+	<section class="exercise" id="ex5">
+		<h2>5. CONFERENTIESCHEMA (3 dagen)</h2>
+		<p class="goal">Doel: rijen en kolommen maken; verschil <code>auto</code>, <code>fr</code> en <code>px</code></p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak van <code>.conference</code> een grid-container; de tussenruimte is 20px.</li>
+				<li>Maak <strong>4 kolommen</strong>: de eerste passend, de laatste drie gelijk en flexibel.</li>
+				<li>Maak <strong>4 rijen</strong>: de eerste passend, de tweede en vierde 180px en de derde 80px hoog.</li>
+			</ol>
+		</div>
+
+		<div class="conference">
+			<!-- Rij 1: dagen -->
+			<div></div>
+			<div class="day">Maandag</div>
+			<div class="day">Dinsdag</div>
+			<div class="day">Woensdag</div>
+
+			<!-- Rij 2: voormiddag -->
+			<div class="hours"> 9u&ndash;12u</div>
+			<div class="session morning">
+				<h4>Opening Keynote</h4>
+				<p>Spreker: Dr. Janssens</p>
+				<p>Onderwerp: AI &amp; de toekomst van onderwijs</p>
+			</div>
+
+			<div class="session morning">
+				<h4>Workshop UX</h4>
+				<p>Hands-on: user flows &amp; prototyping</p>
+			</div>
+
+			<div class="session morning">
+				<h4>Security Essentials</h4>
+				<p>Intro tot pentesting en best practices</p>
+			</div>
+
+			<!-- Rij 3: pauze -->
+			<div class="hours">12u&ndash;13u</div>
+			<div class="break">Lunch &amp; netwerking</div>
+			<div class="break">Lunch &amp; netwerking</div>
+			<div class="break">Lunch &amp; netwerking</div>
+
+			<!-- Rij 4: namiddag -->
+			<div class="hours">13u&ndash;16u</div>
+			<div class="session afternoon">
+				<h4>Data Science</h4>
+				<p>Praktijkcases met Python</p>
+			</div>
+
+			<div class="session afternoon">
+				<h4>Cloud Deployment</h4>
+				<p>Containerization &amp; CI/CD pipelines</p>
+			</div>
+
+			<div class="session afternoon">
+				<h4>Accessibility Deep Dive</h4>
+				<p>Praktische WCAG-checklist</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- 6. PRODUCTFICHE -->
+	<section class="exercise" id="ex6">
+		<h2>6. Productfiche</h2>
+		<p class="goal">Doel: verticaal aligneren</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een grid-container.</li>
+				<li>Maak drie kolommen, de eerste en laatste passend.</li>
+				<li>Centreer de items verticaal met <code>align-items</code>.</li>
+			</ol>
+		</div>
+
+		<div class="media">
+			<img src="img/vaas.jpg" alt="">
+			<div class="text">
+				<h4>Productnaam</h4>
+				<p>Korte beschrijving van dit item.</p>
+			</div>
+			<div class="buy"><a href="#" class="button">Koop nu</a></div>
+		</div>
+	</section>
+
+
+	<!-- 7. PINTEREST-STIJL GRID -->
+	<section class="exercise" id="ex7">
+		<h2>7. Pinterest-stijl grid</h2>
+		<p class="goal">Doel: rijen overspannen</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak van <code>.pin-grid</code> een grid met 2 gelijke kolommen en 3 rijen van 100px hoog.</li>
+				<li>Maak een tussenruimte van 10px.</li>
+				<li>Items met class <code>.tall</code> moeten dubbel zo hoog zijn.</li>
+			</ol>
+		</div>
+
+		<div class="pin-grid">
+			<div class="pin tall">Lang item</div>
+			<div class="pin">Kort item</div>
+			<div class="pin tall">Lang item</div>
+			<div class="pin">Kort item</div>
+		</div>
+	</section>
+
+	<!-- 8. BREDE KAARTEN -->
+	<section class="exercise" id="ex8">
+		<h2>8. Brede</h2>
+		<p class="goal">Doel: kolommen overspannen</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een grid met <strong>3 kolommen</strong>.</li>
+				<li>Maak 20px tussenruimte.</li>
+				<li>Cards met class <code>.wide</code> moeten 2 kolommen innemen.</li>
+			</ol>
+		</div>
+
+		<div class="cards">
+			<div class="card wide">Brede kaart</div>
+			<div class="card">Kleine kaart</div>
+			<div class="card">Kleine kaart</div>
+			<div class="card wide">Brede kaart</div>
+		</div>
+	</section>
+
+	<!-- 9. SPRINGEN -->
+	<section class="exercise" id="ex9">
+		<h2>9. Springen</h2>
+		<p class="goal">Doel: individuele items horizontaal en verticaal uitlijnen</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een 2x2 grid; rijen en kolommen zijn 100px.</li>
+				<li>Maak elke grid cell 80px hoog en breed; maak het rond met <code>border-radius</code>.</li>
+				<li>Aligneer de teksten horizontaal en verticaal (gebruik <code>line-height</code>)in het midden.</li>
+				<li>Gebruik <code>align-self</code> en <code>justify-self</code> om elke cel naar één van de vier buitenhoeken te duwen.</li>
+			</ol>
+		</div>
+
+		<div class="jump-grid">
+			<img src="img/man1.png" alt="" class="man">
+			<img src="img/man3.png" alt="" class="man">
+			<img src="img/man2.png" alt="" class="man jump">
+			<img src="img/man5.png" alt="" class="man jump">
+			<img src="img/man4.png" alt="" class="man">
+		</div>
+	</section>
+
+	<!-- 10. BUITENHOEKEN -->
+	<section class="exercise" id="ex10">
+		<h2>10. Buitenhoeken</h2>
+		<p class="goal">Doel: individuele items horizontaal en verticaal uitlijnen</p>
+
+		<div class="assignment">
+			<ol>
+				<li>Maak een 2x2 grid; rijen en kolommen zijn 150px.</li>
+				<li>Maak elke grid cell 80px hoog en breed; maak het rond met <code>border-radius</code>.</li>
+				<li>Aligneer de teksten verticaal (gebruik <code>line-height</code>) en horizontaal in het midden.</li>
+				<li>Gebruik <code>align-self</code> en <code>justify-self</code> om elke cel naar één van de vier buitenhoeken te duwen.</li>
+			</ol>
+		</div>
+
+		<div class="corner-grid">
+			<div class="cell">build</div>
+			<div class="cell">run</div>
+			<div class="cell">enable</div>
+			<div class="cell">manage</div>
+		</div>
+	</section>
+
+
+
+	<footer class="page-footer">
+		<p>CSS Grid mini-oefeningen — bewerk enkel de TODO’s in oplossingen.css.</p>
+	</footer>
+
+</body>
+
+</html>
